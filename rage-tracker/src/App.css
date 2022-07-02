@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 3rem;
+    background-color: #dfdfdf;
+}
+
+h1,
+h2 {
+    color: #333333;
+    width: 100%;
+}
+
+.block {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    padding-right: 20rem;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 45%;
+    align-items: center;
+}
+
+.bigBoiBlock {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    min-width: 800px;
+}
+
+.blockContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.btn {
+    margin-right: 5px;
+}
+
+.title {
+    min-width: 400px;
+}
